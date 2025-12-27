@@ -209,6 +209,7 @@ fn rerun_if_changed(vars: &[&str]) {
     }
 }
 
+#[cfg(feature = "download-binaries")]
 fn verify_checksum(actual_hash: &str, expected_hash: &str) {
     if env::var("UNSAFE_DISABLE_CHECKSUM_VALIDATION").unwrap_or_default() == "1" {
         println!("cargo:warning=UNSAFE: Checksum validation disabled!");
