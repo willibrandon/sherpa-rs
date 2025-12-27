@@ -9,6 +9,7 @@ pub mod paraformer;
 pub mod punctuate;
 pub mod sense_voice;
 pub mod silero_vad;
+pub mod source_separation;
 pub mod speaker_id;
 pub mod ten_vad;
 pub mod transducer;

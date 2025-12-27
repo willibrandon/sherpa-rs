@@ -89,6 +89,7 @@ impl WhisperRecognizer {
                 zipformer_ctc: mem::zeroed::<_>(),
                 canary: mem::zeroed::<_>(),
                 wenet_ctc: mem::zeroed::<_>(),
+                omnilingual: mem::zeroed::<_>(),
             }
         };
 

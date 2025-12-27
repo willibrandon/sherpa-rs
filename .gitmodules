@@ -1,3 +1,4 @@
 [submodule "crates/sherpa-rs-sys/sherpa-onnx"]
 	path = crates/sherpa-rs-sys/sherpa-onnx
-	url = https://github.com/k2-fsa/sherpa-onnx
+	url = https://github.com/willibrandon/sherpa-onnx
+	branch = source-separation-c-api

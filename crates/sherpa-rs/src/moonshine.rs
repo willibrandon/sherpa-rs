@@ -84,6 +84,7 @@ impl MoonshineRecognizer {
                 zipformer_ctc: mem::zeroed(),
                 canary: mem::zeroed::<_>(),
                 wenet_ctc: mem::zeroed::<_>(),
+                omnilingual: mem::zeroed::<_>(),
             }
         };
 
